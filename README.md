@@ -26,7 +26,7 @@ for number in ppn_numbers:
 
 The example below does the same for a single PPN.
 
-``python
+```python
 from wo2net_delpher_tools import process_ppn_to_json
 
 def main():
