@@ -3,11 +3,11 @@ requires = ["uv>=0.9.24,<0.10.0"]
 build-backend = "uv_build"
 
 [tool.uv.extra-build-dependencies]
-wo2net-delpher-tools = ["uv_build"]
+wo2net_delpher_tools = ["uv_build"]
 
 [project]
-name = "wo2net-delpher-tools"
-version = "0.1.1"
+name = "wo2net_delpher_tools"
+version = "0.1.2"
 description = "Tools for extracting and processing Delpher data for WO2Net"
 readme = "README.md"
 requires-python = ">=3.9.6"
