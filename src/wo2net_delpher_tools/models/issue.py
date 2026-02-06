@@ -1,6 +1,6 @@
 from typing import Optional
-from wo2net_delpher_tools.models.article import Article
-from wo2net_delpher_tools.models.page import Page
+from .article import Article
+from .page import Page
 from lxml import etree
 
 class Issue:
