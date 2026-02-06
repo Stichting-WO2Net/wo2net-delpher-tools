@@ -1,5 +1,5 @@
 import json
-from wo2net_delpher_tools.models.issue import Issue
+from .models.issue import Issue
 
 def save_issues_to_json(issues: list[Issue], file_path: str) -> None:
     issues_data = [issue.to_dict() for issue in issues]

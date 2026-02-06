@@ -1,5 +1,5 @@
 from typing import Optional
-from wo2net_delpher_tools.models.article import Article
+from .article import Article
 
 class Page:
     def __init__(
