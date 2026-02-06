@@ -2,6 +2,9 @@
 requires = ["uv>=0.9.24,<0.10.0"]
 build-backend = "uv_build"
 
+[tool.uv.extra-build-dependencies]
+wo2net-delpher-tools = ["uv_build"]
+
 [project]
 name = "wo2net-delpher-tools"
 version = "0.1.0"
