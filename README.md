@@ -5,11 +5,13 @@ Tools for extracting and processing Delpher data for WO2Net.
 ## Installation
 
 ```bash
-pip install wo2net_delpher_tools
+uv add wo2net_delpher_tools
 ```
 
+or with pip
+
 ```bash
-uv add wo2net_delpher_tools
+pip install wo2net_delpher_tools
 ```
 
 ## Usage
